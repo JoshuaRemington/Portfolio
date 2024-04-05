@@ -1,0 +1,118 @@
+.project-container-specific {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.project-information {
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  font-size: 24px;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-container
+{
+  position: relative;
+  width: 200px;
+  border: 1px black solid;
+}
+
+.project-tech-container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 13px;
+  text-align: center;
+}
+
+.project-container-specific:hover .overlay
+{
+  opacity: 1;
+  background-color: rgb(0, 0, 0);
+}
+
+.project-title
+{
+  font-size: 18px;
+}
+
+.project-description
+{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.right
+{
+  position: relative;
+  float: right;
+  color: #114B5F;
+}
+
+.right:hover
+{
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 800px){
+  .project-title
+  {
+    font-size: 14px;
+  }
+
+  .project-description
+  {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .project-title {
+    font-size: 12px;
+  }
+
+  .project-description
+  {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 520px){
+  .project-title{
+    font-size: 10px;
+  }
+
+  .project-description
+  {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 340px){
+  .project-title {
+    font-size: 9px;
+  }
+
+  .project-description
+  {
+    font-size: 5px;
+  }
+}

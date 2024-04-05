@@ -1,0 +1,37 @@
+.tech-info {
+  position: relative;
+  display: inline-block;
+  margin: 4px;
+  font-size: 14px;
+  padding: 2px;
+}
+
+@media screen and (max-width: 1025px){
+  .tech-info {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .tech-info {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .tech-info {
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 520px){
+  .tech-info {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 340px){
+  .tech-info {
+    font-size: 5px;
+  }
+}
