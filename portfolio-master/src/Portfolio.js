@@ -66,9 +66,16 @@ function Portfolio() {
             <ProjectTemplate
               id="pl"
               text="Python Lexer W/ GUI"
-              projectInfoText="Unity-based chess engine, meticulously engineered to demonstrate the synergy between advanced programming techniques and game development. Leveraging bitwise operations for unparalleled efficiency, this engine employs the Minimax algorithm and Alpha-Beta pruning to deliver strategic gameplay experiences."
+              projectInfoText="This project implements a basic lexical analyzer and parser for a simple language called TinyPIe. It includes functionalities to tokenize input source code, perform lexical analysis, parse the tokens, and visualize the parsing tree."
               projectTech={["Python", "Tkinter"]}
               github_link="https://github.com/JoshuaRemington/LexerWithGui"
+            ></ProjectTemplate>
+            <ProjectTemplate
+              id="pc"
+              text="Python Chess"
+              projectInfoText="Simple Chess game created in python that uses the minimax algorithm and alpha beta pruning. Features include different dificulties of chess bots to play against and player vs player game mode."
+              projectTech={["Python", "Pygame"]}
+              github_link="https://github.com/JoshuaRemington/chess"
             ></ProjectTemplate>
           </div>
           <br></br>
